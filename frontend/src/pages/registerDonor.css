@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+.registerD {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.registerD .text {
+}
+
+.Image,
+.cover {
+  height: 100vh;
+  width: 50vw;
+}
+
+.cover {
+  padding-top: 200px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5rem;
+  display: table;
+}
+
+.Heading {
+  padding-top: 70px;
+  font-family: "Gloock", serif;
+  color: #fa234b;
+  font-size: 50px;
+}
+
+.HealthStatus {
+  padding-bottom: 20px;
+}
+
+.Submit {
+  background-color: #fa234b;
+  border: none;
+  color: antiquewhite;
+  font-size: 30px;
+  border-radius: 2rem;
+  padding: 10px 20px;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.Submit:hover,
+.Submit:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.Submit:hover {
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.Submit:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: white;
+  transform: translateY(0);
+  text-decoration: none;
+}
+
+.form {
+  font-size: 20px;
+  padding-bottom: 20px;
+}

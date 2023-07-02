@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  position: relative;
+  overflow: hidden;
+}
+
+.App .page1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
+.nav .Name {
+  font-size: 60px;
+  font-family: "Gloock", serif;
+  color: #fa234b;
+  z-index: 2;
+  position: absolute;
+  left: 795px;
+}
+
+.line {
+  width: 200px;
+  height: 3px;
+  background-color: white;
+}
+
+.landing {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100vh;
+  flex-direction: column;
+}
+
+.text {
+  font-family: "Cormorant", serif;
+  font-size: 150px;
+  text-align: center;
+  z-index: 2;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 100px;
+  z-index: 2;
+  text-decoration: none !important;
+}
+
+.button-6 {
+  font-family: "Philosopher", sans-serif;
+  background-color: #fa234b;
+  border: none;
+  color: antiquewhite;
+  border-radius: 2rem;
+  padding: 20px;
+  font-size: 30px;
+}
+.button-6 {
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  text-decoration: none;
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: white;
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+  color: #f0f0f1;
+  text-decoration: none;
+}
+
+.heart {
+  height: 70vh;
+  position: absolute;
+  z-index: 0;
+}
+
+.Home,
+.About {
+  font-family: "Cormorant", serif;
+  font-size: 25px;
+}
+
+.Home {
+  font-family: "Roboto Condensed", sans-serif;
+  position: absolute;
+  left: 320px;
+}
+.About {
+  font-family: "Roboto Condensed", sans-serif;
+  position: absolute;
+  right: 400px;
+}
+
+.fDiv {
+  display: flex;
+  z-index: 3;
+  position: absolute;
+  bottom: 50px;
+  gap: 50px;
+  height: 40px;
+}
+
+.page1 {
+  position: fixed;
+  z-index: 100;
+}
+
+.page2 {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page3 {
+  height: 100vh;
+  width: 100vw;
+}
+
+#pg2Txt {
+  color: #f0f0f1;
+  position: absolute;
+  font-size: 100px;
+  z-index: 4;
+}
+
+.vid {
+  height: 70vh;
+}
+
+.map {
+  padding: 50px;
+  height: 90vh;
+  position: absolute;
+  right: 0px;
+}
+
+#pg3 {
+  position: relative;
+  font-size: 100px;
+  right: 400px;
+  top: 250px;
+}
+
+#learn {
+  position: relative;
+  left: 450px;
+  top: 300px;
+}
+
+.page4 {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+#pg4 {
+  color: white;
+  font-size: 150px;
+  position: relative;
+  top: 350px;
+}
+
+#rec {
+  left: 850px;
+  top: 400px;
+}
+
+#wheel {
+  position: absolute;
+  left: 450px;
+  bottom: 100px;
+  height: 70vh;
+}
+
+.link {
+  color: azure;
+  text-decoration: none;
+}
