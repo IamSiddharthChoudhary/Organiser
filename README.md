@@ -9,3 +9,4 @@ Check transactions on [Aurora Testnet Explorer](https://explorer.testnet.aurora.
 ![Screenshot from 2023-07-02 17-50-36](https://github.com/IamSiddharthChoudhary/Organiser/assets/96943338/633cd757-9a19-431b-b4d7-60907f013222)
 
 ##Video Link
+[Link](https://www.youtube.com/watch?v=yUZmZGF86q8)
