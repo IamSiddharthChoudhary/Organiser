@@ -1,5 +1,3 @@
-![Screenshot from 2023-07-02 17-48-37](https://github.com/IamSiddharthChoudhary/Organiser/assets/96943338/bea18200-8630-4c0b-a347-e6e55ca89538)## Contract
-
 deployed at: 0xBfdc852B2Ec58F92a755e8e8260152D7443C33Cc.
 
 Check transactions on [Aurora Testnet Explorer](https://explorer.testnet.aurora.dev)
